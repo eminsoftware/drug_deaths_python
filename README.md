@@ -19,8 +19,7 @@ The analysis was performed in a structured Jupyter Notebook workflow, divided in
 ### 2. Data Cleaning and Preprocessing
 The raw dataset required extensive cleaning to ensure data quality and consistency:
 * **Case Standardization**: Applied a capitalization function to ensure uniform casing across categorical columns (e.g., `Race`, `Location`, `County`).
-* **Ethnicity Normalization**: Addressed the highly inconsistent `Ethnicity` column by creating a new, standardized binary column (`Hispanic/Latino` vs. `Non-Hispanic/Latino`).
-* **Missing Value Handling**: Imputed or handled various missing values across different columns.
+* **Ethnicity Normalization**: Addressed the highly inconsistent `Ethnicity` column by creating a new, standardized column (`Hispanic/Latino` vs. `Non-Hispanic/Latino`).
 * **Data Type Conversion**: Converted the `Date` column to the `datetime` format to enable robust temporal analysis.
 * **Feature Engineering**: Extracted the year from the `Date` column for time-series aggregation.
 * **Redundancy Reduction**: Dropped non-usable or redundant geographic columns (e.g., `ResidenceCityGeo`, `InjuryCityGeo`).
@@ -36,22 +35,10 @@ The raw dataset required extensive cleaning to ensure data quality and consisten
     * Calculated the average age of victims, segmented by county and gender.
 * **Geographical Analysis**: Determined the counties with the highest incidence of accidental drug-related deaths.
 
-## Key Technologies
-
-| Category | Tool/Library | Description |
-| :--- | :--- | :--- |
-| **Data Processing** | Python | Primary programming language used for the project. |
-| **Core Libraries** | **Pandas** | Essential for data loading, cleaning, manipulation, and advanced grouping/aggregation. |
-| | **NumPy** | Used for efficient numerical operations and handling of array-like structures. |
-| **Visualization** | Matplotlib / Seaborn | (Assumed) Used to generate visualizations (bar charts, line plots) to clearly communicate trends and findings. |
-| **Environment** | Jupyter Notebook | Used for interactive analysis and reproducible documentation of the data workflow. |
-
 ## Data Source
 
-| Source | Link | Context |
-| :--- | :--- | :--- |
 | **Dataset** | `Accidental_Drug_Related_Deaths_2012-2024.csv` | Dataset of accidental drug-related deaths in Connecticut from 2012 to 2024. |
-| **Source URL** | *(Please insert the official source link for the dataset here)* | This is typically a state or government data portal (e.g., Data.gov, a state's open data portal). |
+| **Source URL** | (https://catalog.data.gov/dataset/accidental-drug-related-deaths-2012-2018) |
 
 ## Conclusion
 
