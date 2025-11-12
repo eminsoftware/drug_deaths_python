@@ -37,8 +37,8 @@ The raw dataset required extensive cleaning to ensure data quality and consisten
 
 ## Data Source
 
-| **Dataset** | `Accidental_Drug_Related_Deaths_2012-2024.csv` | Dataset of accidental drug-related deaths in Connecticut from 2012 to 2024. |
-| **Source URL** | (https://catalog.data.gov/dataset/accidental-drug-related-deaths-2012-2018) |
+| **Dataset** | Dataset of accidental drug-related deaths in Connecticut from 2012 to 2024. 
+| **Source URL** | (https://catalog.data.gov/dataset/accidental-drug-related-deaths-2012-2018) 
 
 ## Conclusion
 
